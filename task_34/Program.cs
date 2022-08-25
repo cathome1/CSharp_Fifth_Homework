@@ -11,7 +11,7 @@ int[] FillArray(int len)
     }  
     return arr;
 }
-int CountOfHonest(int[] arr) 
+int CountOfEven(int[] arr) 
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -33,5 +33,5 @@ Console.Write("Введите размер массива: ");
 int length = Convert.ToInt32(Console.ReadLine());
 int[] array = FillArray(length);
 PrintArray(array);
-Console.WriteLine(CountOfHonest(array));
+Console.WriteLine(CountOfEven(array));
 
